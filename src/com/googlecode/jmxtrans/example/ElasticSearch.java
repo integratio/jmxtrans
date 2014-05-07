@@ -19,7 +19,7 @@ public class ElasticSearch {
     */
 	public static void main(String[] args) throws Exception {
 
-		JmxProcess process = JmxUtils.getJmxProcess(new File("elasticsearch.json"));
+		JmxProcess process = JmxUtils.getJmxProcess(new File("elasticsearch-custom.json"));
 		JmxUtils.printJson(process);
 
 		JmxTransformer transformer = new JmxTransformer();
